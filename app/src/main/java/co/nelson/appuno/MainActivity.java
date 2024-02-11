@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                nombreUsuario.setText("Presioné Boton Uno");
+                nombreUsuario.setText("Presionaste Boton Uno");
 
             }
         });
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                nombreUsuario.setText("Presioné Boton Dos");
+                nombreUsuario.setText("Presionaste Boton Dos");
             }
         });
 
